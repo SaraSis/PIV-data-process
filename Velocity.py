@@ -6,9 +6,9 @@ import matplotlib.pyplot as plt
 from Smooth import smooth
 from DissipationRate import dis_compute
 
-FilePath = 'I:\\数据分析结果\\PIVlab\\D=5\\14+6\\'
-FileName = '11.mat'
-Data = loadmat(FilePath + FileName)
+FilePath =                  # input the path of mat file, such as 'I:\\数据分析结果\\PIVlab\\D=5\\14+6'
+FileName =                  # input the filename, such as '11.mat'
+Data = loadmat(FilePath + '\\' + FileName)
 
 # Initialization
 # TimeLength defines the file length in time
